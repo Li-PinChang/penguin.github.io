@@ -1,0 +1,222 @@
+<html>
+  <head>
+   <link rel= "stylesheet" type="text/css" href="style.css">
+   <script type="text/javascript">
+
+        window.onload = function() {
+
+          var a = document.getElementById("mylink");
+
+  
+          a.onclick = function() {
+			var a = 0;
+			var b = window.prompt("1.) How many different species of penguins are there?");
+			if (b.toLowerCase()=="seventeen" || b == 17) {
+				window.alert("Great Work! You are right!");
+				a++;
+			}else
+			window.alert("Sorry, the correct answer is 17");
+			
+			var c = window.prompt("2.) Which of the following is a species of penguins? \n\n a.)Little Black \n\n b.)Little Gray \n\n c.)Little Pink \n\n d.)Little Blue\n");
+			if (c.toLowerCase()=="d") {
+				window.alert("Great Work! You are right!");
+				a++;
+			}else
+			window.alert("Sorry, the correct answer is D");
+			
+			var d = window.prompt("3.) Please type true or false: \n Penguins live in the North Pole");
+			if (d.toLowerCase()== "f" || d.toLowerCase() == "false"){
+				window.alert("Great Work! You are right!");
+				a++;
+			}else
+				window.alert("Sorry, the correct answer was false.");
+				
+			var e = window.prompt("4.)Which of the following is NOT a preadtor of penguins? \n\n a.)Polar bears \n\n b.)Rats \n\n c.)fox\n\n d.)Sea lions\n")
+			if (e.toLowerCase()== "a") {
+				window.alert("Gerat Work! You are right!");
+				a++;
+			}else
+				window.alert("Sorry, the correct answer was A");
+				
+			var f = window.prompt("5.)Fill in the blank \n\n Penguins rely on their _________ while hunting");
+			if (f.toLowerCase()== "vision" || f.toLowerCase ()== "visions"||f.toLowerCase() == "eyes") {
+				window.alert("Great Work! You are right!");
+				a++;
+			}else	
+				window.alert("Sorry, the correct answer was vision");
+				
+			var g = window.prompt ("6.)Fill in the blank \n\n Penguins go through annual_________");
+			if(g.toLowerCase()== "fasting") {
+				window.alert("Great Work! You are right!");
+				a++;
+			}else
+				window.alert("Sorry, the correct answer was Fasting");
+				
+			var h = window.prompt("7.) Which of the following is NOT a reason why penguins eat stones?\n\n a.)To aid digestion \n\n b.)To reduce buoyancy while diving\n\n c.)To commit sucide\n\n d.)To reduce feelings of hunger.\n")
+			if (h.toLowerCase()=="c")	{
+				window.alert("Great Work! You are right!");
+				a++;
+			}else
+				window.alert("Sorry, the correct answer was C");
+				
+			var i = window.prompt("8.) Please enter true or false \n Penguins hunt at around 10 to 15 meters below water.");
+			if (i.toLowerCase()=="false"){
+				window.alert("Great Work! You are right!");
+				a++;
+			}else 
+				window.alert("Sorry, the correct answer was False");
+				
+			var j = window.prompt("9.)Fill in the blank \n Penguins need to live close to __________ for food.");
+			if (j.toLowerCase() == "water") {
+				window.alert("Great Work! You are right!");
+				a++;
+			}else
+				window.alert("Sorry, the correct answer was Water");
+				
+			var k = window.prompt("10.)Please enter true or false \n All penguins live in the South Pole");
+			if (k.toLowerCase() == "false" || k.toLowerCase()== "f") {
+				window.alert("Great Work! You are right!");
+				a++;
+			}else
+				window.alert("Sorry, the correct answer was False");
+				
+			var l = window.prompt("11.)Please enter true or false \n Penguins are omnivore");
+			if (l.toLowerCase() == "false"|| l.toLowerCase() == "f") {
+				window.alert("Great Work! You are right!");
+				a++;
+			}else
+				window.alert("Sorry, the correct answer was False. Penguins are carnivores");
+				
+			var m = window.prompt("12.)Please enter true or false \n Penguins can live in Africa");
+			if(m.toLowerCase() == "true" || m.toLowerCase() == "t") {
+				window.alert("Great Work! You are right!");
+				a++;
+			}else
+				window.alert("Sorry, the correct answer was True.");
+				
+			var n= window.prompt("13.)Which of the following is a species of penguin? \n\n a.)American Penguin \n\n b.)African Penguin \n\n c.)Chinese Penguin \n\n d.)Japanese Penguin\n")
+			if(n.toLowerCase()== "b") {
+				window.alert("Great Work！You are right!");
+				a++;
+			}else	
+				window.alert("Sorry, the correct answer was B");
+				
+			var o = window.prompt("14.)Which of the following do penguins do before fasting? \n\n a.)Dance and Party \n\n b.)Give birth \n\n c.)Find a mate \n\n d.)Eat lots of food and store up a fat layer\n")
+			if (o.toLowerCase()== "d") {
+				window.alert("Great Work! You are right!");
+				a++;
+			}else
+				window.alert("Sorry,the correct answer was D");
+				
+			var p = window.prompt("Please enter true or false \n All species of penguins have the same diet and habits.");
+			if (p.toLowerCase()=="false"|| p.toLowerCase()=="f") {
+				window.alert("Great Work！You are right!");
+				a++;
+			}else
+				window.alert("Sorry, the correct answer was False");
+			
+			if (a > 11) {
+				window.alert("Your final score was " +a+ " out of 15.Great work!");
+			}else
+				window.alert("Your final score was " +a+ " out of 15. Please work harder.")
+			
+			
+			
+            return false;
+          }
+        }
+    </script>
+   <title>About Penguins</title>
+  </head>
+  <body>
+   <h1>All About Penguins</h1>
+   <hr/>
+   <h2>General Information<h2>
+   <hr/>
+   <h3>Species</h3>
+   <p>After reading the website, please click <a id="mylink" href="http://www.google.com"> here </a> to take the quiz</p>
+   <br/>
+   <p>Click <a href="intro.html"> here</a> to read about me.</p>
+   <br/>
+   <p>There are 17 different species of penguins on Earth. Those 17 species are:</p>
+   <ul>
+   <li>Adelie</li> 
+   <img src="th6.jpg" title="Adelie Penguin" alt="Adelie Penguin"/>
+   <li>African</li> 
+   <img src="th.jpg" title="African Penguin" alt="African Penguin"/>
+   <li>Chinstrap</li> 
+   <img src="th4.jpg" title="Chinstrap Penguin" alt="Chinstrap Penguin"/>
+   <li>Emperor (Largest species of penguin)</li> 
+   <img src="th5.jpg" title="Emperor Penguin" alt="Emperor Penguin"/>
+   <li>Erect-crested</li> 
+   <img src="th14.jpg" title="Erect-crested Penguin" alt="Erect-crested Penguin"/>
+   <li>Fiordland</li>
+   <img src="th15.jpg" title="Fiordland Penguin" alt="Fiordland Penguin"/>
+   <li>Galapagos</li> 
+   <img src="th16.jpg" title="Galapagos Penguin" alt="Galapagos Penguin"/>
+   <li>Gentoo</li> 
+   <img src="th17.jpg" title="Gentoo Penguin" alt="Gentoo Penguin"/>
+   <li>Humboldt</li> 
+   <img src="th18.jpg" title="Humboldt Penguin" alt="Humboldt Penguin"/>
+   <li>Little Blue (Smallest species of penguins)</li>
+   <img src="th3.jpg" title="Little Blue Penguin" alt="Little Blue Penguin"/>
+   <li>King</li> 
+   <img src="th9.jpg" title="King Penguin" alt="King Penguin"/>
+   <li>Yellow eyed</li>
+   <img src="th7.jpg" title="Yellow eyed Penguin" alt="Yellow eyed Penguin"/>
+   <li>Snares</li> 
+   <img src="th8.jpg" title="Snares Penguin" alt="Snares Penguin"/>
+   <li>Royal</li>
+   <img src="th10.jpg" title="Royal Penguin" alt="Royal Penguin"/>   
+   <li>Rockhopper</li>
+   <img src="th11.jpg" title="Rockhopper Penguin" alt="Rockhopper Penguin"/>   
+   <li>Macaroni</li> 
+   <img src="th12.jpg" title="Macaroni Penguin" alt="Macaroni Penguin"/>
+   <li>Magellanic</li>
+   <img src="th13.jpg" title="Magellanic Penguin" alt="Magellanic Penguin"/>
+   </ul>
+   <h3>Diet and Eating Habits</h3>
+   <p>Different species of penguins eat different food, but generally speaking, they eat the following:</p>
+   <ul>
+   <li>Krill</li>
+   <li>Fish</li> 
+   <li>Squids</li>
+   </ul>
+   <p>Other information:</p>
+   <ul>
+   <li>The species of the Antarctic and the subantarctic primarily feed on krill and squids. 
+   Species farther north tend to eat fish.</li>
+   <li>Penguins feed at sea. Most feeding occur at 15.3 to 18.3 meters below the surface.</li>
+   <li>Penguins rely on their visions while hunting</li>
+   <li>Sometimes, penguins will eat stones. Scientists suspect that the reasons may be to aid digestion, reduce
+   buoyancy while diving, or to decrease their feelings of hunger. </li>
+   <li>Penguins go through annual fasting. Before fasting, they build up a fat layer which provides energy</li>
+   </ul>
+   <h3>Preadtors</h3>
+   <p>Penguins are hunted by underwater animals, such as:</p>
+   <ul>
+   <li>Leopard Seals</li> 
+   <li>Sea Lions</li> 
+   <li>Orcas</li>
+   </ul>
+   <p>Penguins are also hunted by birds, such as:</p>
+   <li>Skua</li>
+   <li>Australian Sea Eagle</li>
+   <p>On land, penguins are hunted by:</p> 
+   <ul>
+   <li>Snakes</li> 
+   <li>Lizards</li> 
+   <li>Foxes</li> 
+   <li>Rats</li>
+   </ul>
+   <h3>Habitat</h3>
+   <p>Different species live in different areas. But they all need to live close to water for food. Therefore they are found in costal regions of: </p>
+   <ul>
+   <li>South America</li> 
+   <li>Africa</li> 
+   <li>Australia</li> 
+   <li>New Zealand</li>
+   </ul>
+   <p>Fun facts: Sometimes people will say that penguins are in the North Pole, but in reality, they are in the South Pole</p>
+  </body>
+</html>

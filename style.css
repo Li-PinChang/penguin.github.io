@@ -1,0 +1,50 @@
+body {
+background-color:#A0CFEC;
+background-image: url("th2.jpg");
+background-repeat: repeat-y;
+margin-left: 165px;
+background-attachment: fixed;
+}
+h1 {
+font-style:bold;
+color:#736AFF;
+font-size: 45px;
+font-family: Algerian;
+
+}
+
+h2{
+font-style:Bold;
+color:#2B65EC;
+font-size:30;
+font-family: Castellar;
+}
+
+h3{
+font-style:Bold;
+color:#0041C2;
+font-size:25;
+font-family: Castellar;
+}
+
+p {
+font-size:24px;
+font-family:informal roman;
+color:#368BC1;
+font-style: bold;
+}
+
+li{
+font-size:20px;
+font-family:MV Boli;
+color:#C71585;
+}
+
+a:link{
+color:#B87333;
+font-size:24px
+}
+
+a:hover{
+color:yellow;
+}
